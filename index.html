@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoSekai 资源库</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="lib/xlsx.full.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🚀 MotoSekai 资源库</h1>
+    <p>游戏 · 工具 · 镜像 · 文档 · 历史版本归档</p>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="搜索资源、标签或描述...">
+    <select id="categoryFilter"><option value="">全部分类</option></select>
+    <button id="showFavorites">⭐ 我的收藏</button>
+  </div>
+
+  <div id="resourceList" class="resource-grid"></div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
